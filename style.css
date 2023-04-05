@@ -9,6 +9,7 @@
 body{
     margin:0;
     background-color: aquamarine;
+    user-select: none;
 }
 .board{
     width: 100vh;
@@ -115,7 +116,6 @@ body{
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0,.9);
-    display: flex;
     justify-content: center;
     align-items: center;
     color: wheat;
